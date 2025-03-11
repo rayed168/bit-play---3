@@ -13,8 +13,8 @@ def divide(our_dividend, our_divisor):
         quotient_number -= quotient_number
     return quotient_number
 
-a = int(input("Enter a for a/b"))
+a = int(input("Enter a for a/b : "))
 
-b = int(input("Enter b for a/b"))
+b = int(input("Enter b for a/b : "))
 
 print(f"Result of {a} / {b} is {divide(a, b)} ")
